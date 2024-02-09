@@ -6,7 +6,15 @@ public class Main {
         myMovie.releaseYear = 2018;
         myMovie.durationMinutes = 140;
 
-        System.out.println(myMovie.name);
-        System.out.println(myMovie.releaseYear);
+        myMovie.showDatasheet();
+
+        myMovie.rate(8);
+        myMovie.rate(5);
+        myMovie.rate(10);
+
+        System.out.println(myMovie.sumRatings);
+        System.out.println(myMovie.totalRating);
+
+        System.out.println(myMovie.getAverageRatings());
     }
 }
