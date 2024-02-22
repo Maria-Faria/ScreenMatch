@@ -1,3 +1,5 @@
+import br.com.alura.screenmatch.models.Movie;
+
 public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
@@ -12,9 +14,7 @@ public class Main {
         myMovie.rate(5);
         myMovie.rate(10);
 
-        System.out.println(myMovie.sumRatings);
-        System.out.println(myMovie.totalRating);
-
+        System.out.println("Total de avaliações: " + myMovie.getTotalRating());
         System.out.println(myMovie.getAverageRatings());
     }
 }
