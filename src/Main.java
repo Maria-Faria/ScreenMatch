@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
 
-        myMovie.name = "Ready Player One";
-        myMovie.releaseYear = 2018;
-        myMovie.durationMinutes = 140;
+        myMovie.setName("Ready Player One");
+        myMovie.setReleaseYear(2018);
+        myMovie.setDurationMinutes(140);
 
         myMovie.showDatasheet();
 
