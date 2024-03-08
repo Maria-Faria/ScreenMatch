@@ -8,6 +8,7 @@ public class Main {
         myMovie.setName("Ready Player One");
         myMovie.setReleaseYear(2018);
         myMovie.setDurationMinutes(140);
+        System.out.println("Duração do filme: " + myMovie.getDurationMinutes());
 
         myMovie.showDatasheet();
 
@@ -24,5 +25,8 @@ public class Main {
         lost.showDatasheet();
         lost.setSeasons(10);
         lost.setEpisodesSeason(10);
+        lost.setMinutesEpisode(50);
+        System.out.println("Duração para maratonar Lost: " + lost.getDurationMinutes());
+
     }
 }

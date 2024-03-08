@@ -41,4 +41,8 @@ public class Title {
     public void setDurationMinutes(int durationMinutes) {
         this.durationMinutes = durationMinutes;
     }
+
+    public int getDurationMinutes() {
+        return durationMinutes;
+    }
 }
